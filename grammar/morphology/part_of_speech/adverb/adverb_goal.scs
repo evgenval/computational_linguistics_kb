@@ -1,27 +1,25 @@
 
 sc_node_not_relation
- -> concept_adverb_goal;;
+ -> adverb_goal;;
 
-concept_adverb_goal
+adverb_goal
  => nrel_main_idtf: [наречие цели](* <- lang_ru;; *);
  => nrel_idtf: [множество наречий цели](* <- lang_ru;; *);
  => nrel_idtf: [adverb goal](* <- lang_en;; *);;
 
 
 
-sc_node_role_relation
-->rrel_goal_of_making;;
 
 definition -> ...   
  (*
-     -> rrel_key_sc_element: concept_adverb_goal;;
+     -> rrel_key_sc_element: adverb_goal;;
 
      => nrel_main_idtf: [Опр. (наречие цели)](* <- lang_ru;; *);;
      <= nrel_using_constants: ...
 	(*
- -> concept_adverb;;
--> concept_action;;
- -> rrel_goal_of_making(*=> nrel_main_idtf: [цель совершения'] (* <- lang_ru;; *);;*);;
+ -> adverb;;
+-> action;;
+ -> rrel_goal_of_making;;
  -> nrel_denote;;
 
 	*);;
@@ -29,7 +27,7 @@ definition -> ...
      *);;
 
 
-concept_adverb_goal
+adverb_goal
  -> rrel_example:...
 (*
 =>nrel_main_idtf: [Нарочно](*<-lang_ru;;*);

@@ -1,8 +1,8 @@
 
 sc_node_not_relation
- -> concept_local_adverb;;
+ -> local_adverb;;
 
-concept_local_adverb
+local_adverb
  => nrel_main_idtf: [наречие места](* <- lang_ru;; *);
  => nrel_idtf: [множество наречий места](* <- lang_ru;; *);
  => nrel_idtf: [local adverb](* <- lang_en;; *);;
@@ -14,14 +14,14 @@ sc_node_role_relation
 
 definition -> ...   
  (*
-     -> rrel_key_sc_element: concept_local_adverb;;
+     -> rrel_key_sc_element: local_adverb;;
 
      => nrel_main_idtf: [Опр. (наречие места)](* <- lang_ru;; *);;
      <= nrel_using_constants: ...
 	(*
- -> concept_adverb;;
--> concept_action;;
- -> rrel_place_of_making(*=> nrel_main_idtf: [место совершения'] (* <- lang_ru;; *);;*);;
+ -> adverb;;
+-> action;;
+ -> rrel_place_of_making;;
  -> nrel_denote;;
 
 	*);;
@@ -29,7 +29,7 @@ definition -> ...
      *);;
 
 
-concept_local_adverb
+local_adverb
  -> rrel_example:...
 (*
 =>nrel_main_idtf: [Навстречу](*<-lang_ru;;*);

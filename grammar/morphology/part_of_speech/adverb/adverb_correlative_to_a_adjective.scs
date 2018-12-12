@@ -1,8 +1,8 @@
 
 sc_node_not_relation
- -> concept_adverb_correlative_to_a_adjective;;
+ -> adverb_correlative_to_a_adjective;;
 
-concept_adverb_correlative_to_a_adjective
+adverb_correlative_to_a_adjective
  => nrel_main_idtf: [наречие, соотносительное с именем прилагательным](* <- lang_ru;; *);
  => nrel_idtf: [множество наречий, соотносительные с именами прилагательными](* <- lang_ru;; *);
  => nrel_idtf: [adverb correlative to a adjective](* <- lang_en;; *);;
@@ -12,21 +12,21 @@ concept_adverb_correlative_to_a_adjective
 
 definition -> ...   
  (*
-     -> rrel_key_sc_element: concept_adverb_correlative_to_a_adjective;;
+     -> rrel_key_sc_element: adverb_correlative_to_a_adjective;;
 
      => nrel_main_idtf: [Опр. (наречие, соотносительное с именем прилагательным)](* <- lang_ru;; *);;
      <= nrel_using_constants: ...
 	(*
- -> concept_adverb;;
+ -> adverb;;
  -> nrel_constitute_from;;
- -> concept_adjective;;
+ -> adjective;;
 
 	*);;
      <= nrel_sc_text_translation: ... (* -> [Наречие, соотносительное с именем прилагательным - наречие, образованное от имени прилагательного.](* <- lang_ru;; *);;*);;
      *);;
 
 
-concept_adverb_correlative_to_a_adjective
+adverb_correlative_to_a_adjective
  -> rrel_example:...
 
 (*
